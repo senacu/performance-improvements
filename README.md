@@ -17,4 +17,4 @@ This repo demonstrates ten easy wins that usually improve responsiveness and low
 
 The highest-impact, lowest-effort win is memoization. Repeated lookups are often the cheapest place to add a cache without changing behavior.
 
-This project includes a small memoization helper and tests showing the improvement pattern.
+This project includes a small memoization helper and tests showing the improvement pattern. The `createMatcher` helper reuses earlier results for the same normalized input instead of re-running expensive, repeated comparisons.
